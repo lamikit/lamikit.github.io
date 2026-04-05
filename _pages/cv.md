@@ -1,29 +1,3 @@
-<button onclick="window.print()" class="btn btn--info" style="float: right; margin-top: -50px;">
-  <i class="fas fa-print"></i> Print / Save as PDF
-</button>
-
-<style>
-@media print {
-  /* 打印时隐藏不必要的元素 */
-  .sidebar, .masthead, .page__footer, .btn, .adsbygoogle {
-    display: none !important;
-  }
-  .archive {
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  body {
-    background: white !important;
-    font-size: 11pt !important;
-  }
-  a {
-    text-decoration: none !important;
-    color: black !important;
-  }
-}
-</style>
-
 ---
 layout: archive
 title: "Curriculum Vitae"
@@ -34,6 +8,33 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+<button onclick="window.print()" class="btn btn--info" style="float: right; margin-top: 5px;">
+  <i class="fas fa-print"></i> Print / Save as PDF
+</button>
+
+<style>
+@media print {
+  /* 打印时隐藏导航栏、侧边栏和按钮 */
+  .sidebar, .masthead, .page__footer, .btn, .adsbygoogle, .page__share {
+    display: none !important;
+  }
+  .archive {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  body {
+    background: white !important;
+    font-size: 11pt !important;
+    color: black !important;
+  }
+  a {
+    text-decoration: none !important;
+    color: black !important;
+  }
+}
+</style>
 
 <div style="text-align: right; margin-bottom: 20px;">
   <a href="https://lamikit.github.io" style="color: #2c3e50; text-decoration: none; font-weight: bold;">🌐 Online Portfolio: https://lamikit.github.io</a>
