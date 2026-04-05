@@ -41,7 +41,7 @@ redirect_from:
 </div>
 
 ## 🎓 Education
-* **PhD. in  Computer and Information Engineering**, The Chinese University of HongKong, Shenzhen (CUHKSZ), 2025 – present
+* **Ph.D. in  Computer and Information Engineering**, The Chinese University of HongKong, Shenzhen (CUHKSZ), 2025 – present
 * **M.S. in Electronic Engineering**, Shanghai Jiao Tong University (SJTU), 2021 – 2024
   * *GPA: 3.4/4.0*
 * **B.S. in Mechatronic Engineering**, Beijing Institute of Technology (BIT), 2017 – 2021
