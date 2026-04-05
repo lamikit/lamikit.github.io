@@ -1,3 +1,29 @@
+<button onclick="window.print()" class="btn btn--info" style="float: right; margin-top: -50px;">
+  <i class="fas fa-print"></i> Print / Save as PDF
+</button>
+
+<style>
+@media print {
+  /* 打印时隐藏不必要的元素 */
+  .sidebar, .masthead, .page__footer, .btn, .adsbygoogle {
+    display: none !important;
+  }
+  .archive {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  body {
+    background: white !important;
+    font-size: 11pt !important;
+  }
+  a {
+    text-decoration: none !important;
+    color: black !important;
+  }
+}
+</style>
+
 ---
 layout: archive
 title: "Curriculum Vitae"
@@ -14,6 +40,7 @@ redirect_from:
 </div>
 
 ## 🎓 Education
+* **PhD. in  Computer and Information Engineering**, The Chinese University of HongKong, Shenzhen (CUHKSZ), 2025 – present
 * **M.S. in Electronic Engineering**, Shanghai Jiao Tong University (SJTU), 2021 – 2024
   * *GPA: 3.4/4.0*
 * **B.S. in Mechatronic Engineering**, Beijing Institute of Technology (BIT), 2017 – 2021
