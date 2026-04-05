@@ -48,7 +48,7 @@ redirect_from:
   * *GPA: 3.3/4.0*
 
 ## 💼 Research & Work Experience
-**Fibre Laser Design Engineer** | China Academy of Engineering Physics (CAEP) | *May 2024 – Apr 2025*
+**Fibre Laser Design Engineer** | China Academy of Engineering Physics (CAEP) | *May 2024 – Aug 2025*
 
 ## 🏆 Selected Honors & Awards
 * **National Scholarship** , 2023 – 2024
